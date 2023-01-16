@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/node-game/static/css/main.073c9b0a.css",
+    "main.js": "/node-game/static/js/main.16867f55.js",
+    "static/js/787.8ac135ba.chunk.js": "/node-game/static/js/787.8ac135ba.chunk.js",
+    "static/media/logo.svg": "/node-game/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/node-game/index.html",
+    "main.073c9b0a.css.map": "/node-game/static/css/main.073c9b0a.css.map",
+    "main.16867f55.js.map": "/node-game/static/js/main.16867f55.js.map",
+    "787.8ac135ba.chunk.js.map": "/node-game/static/js/787.8ac135ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.16867f55.js"
+  ]
+}
