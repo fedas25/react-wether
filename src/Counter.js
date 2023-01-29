@@ -6,22 +6,23 @@ export default
     constructor(props) {
         super(props);
         this.state = { count: 0 };
+
+        // this.increaseСounter = this.increaseСounter.bind(this); способ привязать this при передаче в колюек
     }
 
     componentDidMount() {
-        this.timerID = setInterval(
-            () => this.getTime(), 1100
-        );
+        // шкута, котороя запускается как компонент отрендерится
     }
 
     componentWillUnmount() {
-        clearInterval(this.timerID);
+        // шкута, котороя запускается как компонент удалится
     }
 
-    getTime() {
+    increaseСounter = (e) => { // this привязан и определён
         this.setState((state) => ({ // предыдущее состояник в виде аргумента
             count: state.count + 1
         }));
+        console.log(e.currentTarget);
     }
 
     render() {
@@ -30,6 +31,7 @@ export default
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
                     Думаем о смысле жизни {this.state.count}
+                    <button onClick={(e) => this.increaseСounter(e)}> нажми меня </button>
                 </header>
             </div>
         );

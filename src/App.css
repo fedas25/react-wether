@@ -19,7 +19,7 @@
   display: flex;
   /* flex-direction: column; */
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2.3vmin);
   color: white;
 }
@@ -31,4 +31,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  appearance: none;
+  border: 0;
+  border-radius: 5px;
+  background: rgb(57, 108, 184);
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  cursor: pointer;
 }

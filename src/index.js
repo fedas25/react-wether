@@ -6,4 +6,6 @@ import Counter from './Counter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-root.render(<Counter />)
+root.render( <div>
+    <Counter />
+</div> )
