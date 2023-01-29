@@ -1,6 +1,6 @@
 {
   "homepage": "http://fedas25.github.io/node-game",
-  "name": "my-game",
+  "name": "react-wether",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
